@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+*{
+  margin: 0px;
+  margin: 0px;
+      box-sizing: border-box;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family:roboto;
+
+}
+.bg{
+  height:'100vh';
+  width:'100vw';
+  overflow-x:'hidden';
+  overflow-y:'hidden';
+
+  background-size:cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.content{
+  width: 100%;
+
+}
+.topBar{
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.8);
+  
+  padding: 0 20px 0 0;
+  color: #062b78;
+ 
+  font-size: 15px;
+}
+.middle{
+  color: white;
+}
+.first{
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+.second{
+  font-size: 2rem;
+  font-weight: 600;
+  width: 60%;
+}
+
+.cookie-consent {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #041f62;
+  color: #fff;
+  height: auto;
+  text-align: center;
+  gap: 10px;
+  padding: 0px 0px 0px 10px;
+ 
+}
+
+.cookie-consent button {
+  background-color: #041f62;
+  color: #fff;
+  border: 1px solid white;
+  padding: 6px 20px;
+  cursor: pointer;
+}
+
+.cookie-consent button:hover {
+  background-color: #0056b3;
+}
+.error {
+  border: 1px solid red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
